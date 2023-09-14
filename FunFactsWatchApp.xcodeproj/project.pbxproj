@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB75102E2A7977C50013AFBD /* FunFactsWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BB75102D2A7977C50013AFBD /* FunFactsWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BB7510332A7977C50013AFBD /* FunFactsWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7510322A7977C50013AFBD /* FunFactsWatchAppApp.swift */; };
+		BB7510352A7977C50013AFBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7510342A7977C50013AFBD /* ContentView.swift */; };
+		BB7510372A7977C60013AFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7510362A7977C60013AFBD /* Assets.xcassets */; };
+		BB75103A2A7977C60013AFBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7510392A7977C60013AFBD /* Preview Assets.xcassets */; };
+		BB7510452A7977E80013AFBD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7510442A7977E80013AFBD /* Model.swift */; };
+		BB7510472A797B0D0013AFBD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7510462A797B0D0013AFBD /* ViewModel.swift */; };
+		E5CAFB7F3B3AC5F40B06214C /* Pods_FunFactsWatchApp_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFAD8E156514CA2A0484545 /* Pods_FunFactsWatchApp_Watch_App.framework */; };
+		F94905DEF98DA60B44B27884 /* Pods_FunFactsWatchApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD875E7E347C1B586EEB9CC /* Pods_FunFactsWatchApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB75102F2A7977C50013AFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB7510212A7977C50013AFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB75102C2A7977C50013AFBD;
+			remoteInfo = "FunFactsWatchApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB7510402A7977C60013AFBD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BB75102E2A7977C50013AFBD /* FunFactsWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		554B23CB2BB6D101C4547D5C /* Pods-FunFactsWatchApp Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunFactsWatchApp Watch App.debug.xcconfig"; path = "Target Support Files/Pods-FunFactsWatchApp Watch App/Pods-FunFactsWatchApp Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		63C163F4F00EA13447F737EE /* Pods-FunFactsWatchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunFactsWatchApp.debug.xcconfig"; path = "Target Support Files/Pods-FunFactsWatchApp/Pods-FunFactsWatchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8188C63A0E7534551F391C97 /* Pods-FunFactsWatchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunFactsWatchApp.release.xcconfig"; path = "Target Support Files/Pods-FunFactsWatchApp/Pods-FunFactsWatchApp.release.xcconfig"; sourceTree = "<group>"; };
+		8AD875E7E347C1B586EEB9CC /* Pods_FunFactsWatchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunFactsWatchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7510272A7977C50013AFBD /* FunFactsWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFactsWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB75102D2A7977C50013AFBD /* FunFactsWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FunFactsWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7510322A7977C50013AFBD /* FunFactsWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsWatchAppApp.swift; sourceTree = "<group>"; };
+		BB7510342A7977C50013AFBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB7510362A7977C60013AFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB7510392A7977C60013AFBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB7510442A7977E80013AFBD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BB7510462A797B0D0013AFBD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		BB7510482A79B7550013AFBD /* FunFactsWatchApp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FunFactsWatchApp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DFFAD8E156514CA2A0484545 /* Pods_FunFactsWatchApp_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunFactsWatchApp_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1E13F56A0FD70258B49FC5 /* Pods-FunFactsWatchApp Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunFactsWatchApp Watch App.release.xcconfig"; path = "Target Support Files/Pods-FunFactsWatchApp Watch App/Pods-FunFactsWatchApp Watch App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		690095C1EF06A5D6CAC0D86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94905DEF98DA60B44B27884 /* Pods_FunFactsWatchApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB75102A2A7977C50013AFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5CAFB7F3B3AC5F40B06214C /* Pods_FunFactsWatchApp_Watch_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53D87BB43233C7AF195E6B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD875E7E347C1B586EEB9CC /* Pods_FunFactsWatchApp.framework */,
+				DFFAD8E156514CA2A0484545 /* Pods_FunFactsWatchApp_Watch_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7697D43F9F865332C70B4BF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63C163F4F00EA13447F737EE /* Pods-FunFactsWatchApp.debug.xcconfig */,
+				8188C63A0E7534551F391C97 /* Pods-FunFactsWatchApp.release.xcconfig */,
+				554B23CB2BB6D101C4547D5C /* Pods-FunFactsWatchApp Watch App.debug.xcconfig */,
+				EE1E13F56A0FD70258B49FC5 /* Pods-FunFactsWatchApp Watch App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB7510202A7977C50013AFBD = {
+			isa = PBXGroup;
+			children = (
+				BB7510312A7977C50013AFBD /* FunFactsWatchApp Watch App */,
+				BB7510282A7977C50013AFBD /* Products */,
+				7697D43F9F865332C70B4BF0 /* Pods */,
+				53D87BB43233C7AF195E6B5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7510282A7977C50013AFBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7510272A7977C50013AFBD /* FunFactsWatchApp.app */,
+				BB75102D2A7977C50013AFBD /* FunFactsWatchApp Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7510312A7977C50013AFBD /* FunFactsWatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BB7510482A79B7550013AFBD /* FunFactsWatchApp-Watch-App-Info.plist */,
+				BB7510322A7977C50013AFBD /* FunFactsWatchAppApp.swift */,
+				BB7510342A7977C50013AFBD /* ContentView.swift */,
+				BB7510442A7977E80013AFBD /* Model.swift */,
+				BB7510462A797B0D0013AFBD /* ViewModel.swift */,
+				BB7510362A7977C60013AFBD /* Assets.xcassets */,
+				BB7510382A7977C60013AFBD /* Preview Content */,
+			);
+			path = "FunFactsWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		BB7510382A7977C60013AFBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB7510392A7977C60013AFBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7510262A7977C50013AFBD /* FunFactsWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7510412A7977C60013AFBD /* Build configuration list for PBXNativeTarget "FunFactsWatchApp" */;
+			buildPhases = (
+				5FF7D77ABA3447BE49DF66C8 /* [CP] Check Pods Manifest.lock */,
+				BB7510252A7977C50013AFBD /* Resources */,
+				BB7510402A7977C60013AFBD /* Embed Watch Content */,
+				690095C1EF06A5D6CAC0D86D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7510302A7977C50013AFBD /* PBXTargetDependency */,
+			);
+			name = FunFactsWatchApp;
+			productName = FunFactsWatchApp;
+			productReference = BB7510272A7977C50013AFBD /* FunFactsWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BB75102C2A7977C50013AFBD /* FunFactsWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB75103D2A7977C60013AFBD /* Build configuration list for PBXNativeTarget "FunFactsWatchApp Watch App" */;
+			buildPhases = (
+				4921476EAA1A7DB57E941A66 /* [CP] Check Pods Manifest.lock */,
+				BB7510292A7977C50013AFBD /* Sources */,
+				BB75102A2A7977C50013AFBD /* Frameworks */,
+				BB75102B2A7977C50013AFBD /* Resources */,
+				CCF67CA539AA7A0A8AD2FF7F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FunFactsWatchApp Watch App";
+			productName = "FunFactsWatchApp Watch App";
+			productReference = BB75102D2A7977C50013AFBD /* FunFactsWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB7510212A7977C50013AFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BB7510262A7977C50013AFBD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BB75102C2A7977C50013AFBD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BB7510242A7977C50013AFBD /* Build configuration list for PBXProject "FunFactsWatchApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB7510202A7977C50013AFBD;
+			productRefGroup = BB7510282A7977C50013AFBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7510262A7977C50013AFBD /* FunFactsWatchApp */,
+				BB75102C2A7977C50013AFBD /* FunFactsWatchApp Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7510252A7977C50013AFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB75102B2A7977C50013AFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB75103A2A7977C60013AFBD /* Preview Assets.xcassets in Resources */,
+				BB7510372A7977C60013AFBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4921476EAA1A7DB57E941A66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunFactsWatchApp Watch App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FF7D77ABA3447BE49DF66C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunFactsWatchApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCF67CA539AA7A0A8AD2FF7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunFactsWatchApp Watch App/Pods-FunFactsWatchApp Watch App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunFactsWatchApp Watch App/Pods-FunFactsWatchApp Watch App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunFactsWatchApp Watch App/Pods-FunFactsWatchApp Watch App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7510292A7977C50013AFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7510452A7977E80013AFBD /* Model.swift in Sources */,
+				BB7510352A7977C50013AFBD /* ContentView.swift in Sources */,
+				BB7510472A797B0D0013AFBD /* ViewModel.swift in Sources */,
+				BB7510332A7977C50013AFBD /* FunFactsWatchAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB7510302A7977C50013AFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB75102C2A7977C50013AFBD /* FunFactsWatchApp Watch App */;
+			targetProxy = BB75102F2A7977C50013AFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB75103B2A7977C60013AFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB75103C2A7977C60013AFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BB75103E2A7977C60013AFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554B23CB2BB6D101C4547D5C /* Pods-FunFactsWatchApp Watch App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunFactsWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=watchos*]" = A3L45L365P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FunFactsWatchApp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FunFactsWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.thota.goutham.FunFactsWatchApp.watchkitextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=watchos*]" = extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		BB75103F2A7977C60013AFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1E13F56A0FD70258B49FC5 /* Pods-FunFactsWatchApp Watch App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunFactsWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=watchos*]" = A3L45L365P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FunFactsWatchApp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FunFactsWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.thota.goutham.FunFactsWatchApp.watchkitextension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=watchos*]" = extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		BB7510422A7977C60013AFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C163F4F00EA13447F737EE /* Pods-FunFactsWatchApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = A3L45L365P;
+				INFOPLIST_KEY_CFBundleDisplayName = FunFactsWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.thota.goutham.FunFactsWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "watch ios profile";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB7510432A7977C60013AFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8188C63A0E7534551F391C97 /* Pods-FunFactsWatchApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = A3L45L365P;
+				INFOPLIST_KEY_CFBundleDisplayName = FunFactsWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.thota.goutham.FunFactsWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "watch ios profile";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB7510242A7977C50013AFBD /* Build configuration list for PBXProject "FunFactsWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB75103B2A7977C60013AFBD /* Debug */,
+				BB75103C2A7977C60013AFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB75103D2A7977C60013AFBD /* Build configuration list for PBXNativeTarget "FunFactsWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB75103E2A7977C60013AFBD /* Debug */,
+				BB75103F2A7977C60013AFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7510412A7977C60013AFBD /* Build configuration list for PBXNativeTarget "FunFactsWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7510422A7977C60013AFBD /* Debug */,
+				BB7510432A7977C60013AFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB7510212A7977C50013AFBD /* Project object */;
+}

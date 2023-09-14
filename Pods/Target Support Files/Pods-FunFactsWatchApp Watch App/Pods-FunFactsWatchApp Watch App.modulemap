@@ -1,0 +1,6 @@
+framework module Pods_FunFactsWatchApp_Watch_App {
+  umbrella header "Pods-FunFactsWatchApp Watch App-umbrella.h"
+
+  export *
+  module * { export * }
+}
